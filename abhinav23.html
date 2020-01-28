@@ -16,3 +16,46 @@ Hobbies:<textarea cols=50></textarea><br><br>
 </form>
 </body>
 </html>
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ UPDATE $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+<!DOCTYPE html>
+<HTML>
+<head>
+<script>
+function validate() {
+  var name = document.form1.name.value;
+    var email= document.form1.email.value;
+
+  if (name==null || name=="") { 
+    alert("fill the name please");
+	   return false;
+}else if(email==null || email=="")
+   { 
+    alert("fill the email please");
+	   return false;
+
+	    }
+}
+</script>
+</head>
+<body >
+
+<form name="form1" method="post" action="abhinav12.html">
+
+name: <input type="text" name="name" ><br><br><hr>
+
+
+Address:<textarea cols=50></textarea><br><hr>
+<b>Gender:</b>  male:<input type="radio" name="male"> female:<input type="radio" name="male"><br><hr>
+Email:<input type="email" name="email"><br><hr>
+area:<br>
+       <input type="checkbox" name="c1">Pune<br>
+	<input type="checkbox" name="c2">Sangli<br>
+	<input type="checkbox" name="c3">Malegaon<br><hr>
+<input type="submit" value="Submit" onclick="return validate()">
+<input type="reset" value="close">
+
+<p><h1><a href="abhinav12.com">Next</h1></p></font>
+
+</form>
+</body>
+</html>
